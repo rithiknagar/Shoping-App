@@ -98,7 +98,7 @@ var itemcount=[];
                
         }
         function showcart(){
-            
+
             if(itemcount.length==0){
                 // document.querySelector("main").innerHTML="No Item In Your cart"
                  
@@ -131,9 +131,7 @@ var itemcount=[];
                             </dd>
                         </dl>
                         </div>
-                         <div class="card-footer">
-                           <button class="btn btn-danger w-100 " onclick="added(${item.id})" ><span class="fa fa-shopping-cart"> </span>  Add to Cart</button>
-                          </div>
+                        
                          
 
                     `
